@@ -1,0 +1,11 @@
+CTF Digital Forensic Challenge Flags
+Below are the flags for the 5 Digital Forensic challenges, listed by challenge number for reference.
+
+Challenge 1: flag{find_evidence}
+Challenge 2: flag{computer_log}
+Challenge 3: flag{Authentic_evidence}
+Challenge 4: flag{Record_evidence}
+Challenge 5: flag{FTK_Imager}
+
+
+Note: Keep these flags separate from the challenges to maintain fairness in CTF practice.
