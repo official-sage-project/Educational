@@ -1,0 +1,11 @@
+CTF Web Challenge Flags
+Below are the flags for the 5 Web challenges, listed by challenge number for reference.
+
+Challenge 1: flag{steal_data}
+Challenge 2: flag{inject_script}
+Challenge 3: flag{invalid_access}
+Challenge 4: flag{encryption}
+Challenge 5: flag{input_validation}
+
+
+Note: Keep these flags separate from the challenges to maintain fairness in CTF practice.
