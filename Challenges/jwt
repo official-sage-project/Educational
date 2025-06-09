@@ -1,0 +1,35 @@
+# What is JWT
+
+A **JSON Web Token (JWT)** is an open industry standard ([RFC 7519](https://tools.ietf.org/html/rfc7519)) used to securely transmit information between two parties, typically a **client and a server**, in a web application or API.
+
+JWTs are **self-contained**, **stateless tokens** that carry all the necessary information for **authentication and authorization** within the token itself, eliminating the need for servers to maintain session data.
+
+---
+
+## Structure of a JWT
+
+JWTs consist of **three parts**, separated by dots (`.`):
+
+1. **Header**
+2. **Payload**
+3. **Signature**
+
+### 1. Header
+The header contains **metadata** about the token, including:
+- The **signing algorithm** (e.g., `HS256`, `RS256`)
+- The **token type** (`JWT`)
+
+### 2. Payload
+The payload contains **claims**, which are statements about the user or other data. Common claims include:
+- **User details**
+- **Timestamps** (`iat`, `nbf`)
+- **Expiration time** (`exp`)
+
+### 3. Signature
+The signature ensures the token's **authenticity and integrity**. It verifies that:
+- The **sender** of the JWT is who it claims to be
+- The **message** wasn't altered during transmission
+
+---
+
+By validating the signature, servers can trust the content of the
